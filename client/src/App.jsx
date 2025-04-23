@@ -6,6 +6,7 @@ import AddWorkout from './pages/AddWorkout';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import ExerciseLibrary from './components/ExerciseLibrary';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/profile" element={<Profile />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/exercise-library" element={<ExerciseLibrary />} />
     </Routes>
   );
 }
