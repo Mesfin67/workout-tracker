@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-// import Footer from '../components/Footer';
 import SignupForm from '../components/SignupForm';
 
 const Signup = () => {
@@ -12,7 +11,6 @@ const Signup = () => {
           <SignupForm />
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 };

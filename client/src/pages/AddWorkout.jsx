@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
-// import Footer from '../components/Footer';
 import WorkoutForm from '../components/WorkoutForm';
 import WorkoutCard from '../components/WorkoutCard';
 import api, { setAuthToken } from '../utils/api';
@@ -52,7 +51,6 @@ const AddWorkout = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
     </>
   );
 };

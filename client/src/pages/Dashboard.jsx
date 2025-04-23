@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
-// import Footer from '../components/Footer';
 import api, { setAuthToken } from '../utils/api';
 import { useAuth } from '../context/AuthContext';
 import WorkoutCard from '../components/WorkoutCard';
@@ -48,7 +47,6 @@ const Dashboard = () => {
         )}
         <ProgressChart />
       </div>
-      {/* <Footer /> */}
     </>
   );
 };

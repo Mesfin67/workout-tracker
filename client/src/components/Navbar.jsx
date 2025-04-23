@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <Link className="navbar-brand" to="">Fit Tracker</Link>
+        <Link className="navbar-brand" to="">Workout Tracker</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
           <span className="navbar-toggler-icon"></span>
         </button>
