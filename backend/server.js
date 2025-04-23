@@ -12,7 +12,7 @@ connectDB();
 
 // Global Middleware
 app.use(express.json());
-app.use(cors({ origin: 'https://w0rk0ut-tracker.netlify.app/' }));
+app.use(cors("*"));
 
 // Route handlers
 app.use('/api/auth', require('./routes/auth'));
