@@ -63,7 +63,12 @@ const WorkoutForm = ({ onWorkoutAdded }) => {
             className="form-control"
             value={load}
             placeholder="Enter load in kg"
-            onChange={(e) => setLoad(e.target.value)}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (value >= 0) {
+                setLoad(value);
+              }
+            }}
             required
           />
         </div>
