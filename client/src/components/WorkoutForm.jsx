@@ -56,7 +56,7 @@ const WorkoutForm = ({ onWorkoutAdded }) => {
             required
           />
         </div>
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <label className="form-label">Load (kg)</label>
           <input
             type="number"
@@ -71,7 +71,7 @@ const WorkoutForm = ({ onWorkoutAdded }) => {
             }}
             required
           />
-        </div>
+        </div> */}
         <div className="mb-3">
           <label className="form-label">Reps</label>
           <input
