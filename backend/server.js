@@ -12,7 +12,7 @@ connectDB();
 
 // Global Middleware
 app.use(express.json());
-app.use(cors({ origin: 'https://workout-trackerrr.netlify.app/' }));
+app.use(cors({ origin: 'w0rk0ut-tracker.netlify.app/' }));
 
 // Route handlers
 app.use('/api/auth', require('./routes/auth'));
