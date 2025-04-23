@@ -61,6 +61,7 @@ const WorkoutForm = ({ onWorkoutAdded }) => {
           <input
             type="number"
             className="form-control"
+            min="1"
             value={load}
             placeholder="Enter load in kg"
             onChange={(e) => {
@@ -77,6 +78,7 @@ const WorkoutForm = ({ onWorkoutAdded }) => {
           <input
             type="number"
             className="form-control"
+            min="1"
             value={reps}
             placeholder="Enter number of reps"
             onChange={(e) => setReps(e.target.value)}
@@ -88,6 +90,7 @@ const WorkoutForm = ({ onWorkoutAdded }) => {
           <input
             type="number"
             className="form-control"
+            min="1"
             value={sets}
             placeholder="Enter number of sets"
             onChange={(e) => setSets(e.target.value)}
@@ -99,6 +102,7 @@ const WorkoutForm = ({ onWorkoutAdded }) => {
           <input
             type="number"
             className="form-control"
+            min="1"
             value={duration}
             placeholder="Enter duration in minutes"
             onChange={(e) => setDuration(e.target.value)}
