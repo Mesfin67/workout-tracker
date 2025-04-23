@@ -51,7 +51,7 @@ const LoginForm = () => {
         </div>
         <button type="submit" className="btn btn-primary w-100">Login</button>
         <p className="mt-3 text-center">
-          New user? <a href="/signup">Sign up</a>
+          New user? <a href="/signup">Sign Up</a>
         </p>
       </form>
     </div>
